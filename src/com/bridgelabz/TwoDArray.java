@@ -9,10 +9,10 @@ public class TwoDArray {
 		System.out.println("Enter value for rows and column");
 		int row = d.nextInt();
 		int column = d.nextInt();
-		   int twoD[][] = new int[row][column];
+		   int twoD[][] = new int[row][column];//definig row and column wher index value start 00
 		    for (int i = 0; i < row; i++) {
 		      for (int j = 0; j < column; j++) {
-		        twoD[i][j] = i*j;/*from www .ja v a  2s.  c  om*/
+		        twoD[i][j] = i*j;
 		      }
 		    }
 		    for (int i = 0; i < row; i++) {
