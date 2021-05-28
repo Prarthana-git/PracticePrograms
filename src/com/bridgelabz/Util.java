@@ -2,11 +2,7 @@ package com.bridgelabz;
 
 public class Util {
 
-	/**
-	 * to calculate monthly payment for r interest and p principal for y years p the
-	 * principal amount given y the year for which p is given r the rate at which p
-	 * is given monthly payment
-	 */
+	
 	static double monthlyPayment(double p, double y, double R) {
 		double n = 12 * y;
 		double r = R / (12 * 100);
